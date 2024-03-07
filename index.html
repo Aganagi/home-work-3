@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Register Form</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <div class="form-container">
+      <h2>Regiter form</h2>
+      <form>
+        <label for="name">Ad:</label>
+        <input
+          type="text"
+          id="name"
+          name="name"
+          placeholder="Adınızı daxil edin" />
+        <label for="surname">Soyad:</label>
+        <input
+          type="text"
+          id="surname"
+          name="surname"
+          placeholder="Soyadınızı daxil edin" />
+        <label for="email">E-mail:</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Email daxil edin" />
+        <label for="birthday">Doğum tarixi:</label>
+        <input
+          type="date"
+          id="birthday"
+          name="birthday"
+          placeholder="Doğum tarixi daxil edin" />
+        <label for="age">Yaş:</label>
+        <input
+          type="number"
+          id="age"
+          name="age"
+          placeholder="Yaşınlzı daxil edin" /><br />
+        <label for="gender">Cinsiyyet:</label><br />
+        <div class="item2">
+          <label for="male"
+            >Kişi: <input type="radio" id="gender" name="gender" /></label
+          >&nbsp;
+          <label for="female"
+            >Qadın: <input type="radio" id="gender" name="gender" /></label
+          ><br />
+        </div>
+        <label for="dogum">Doğum yeri:</label>
+        <input
+          type="text"
+          id="dogum"
+          name="dogum"
+          placeholder="Doğum yerinizi daxil edin" />
+        <label for="phone">Nömrə:</label>
+        <input
+          type="number"
+          id="phone"
+          name="phone"
+          placeholder="Nömrənizi daxil edin" />
+        <label for="password">Şifrə:</label>
+        <input type="password" id="password" name="password" /><br /><br />
+        <label for="color">Rəng:</label>
+        <input type="color" id="color" /><br /><br />
+        <label for="check"
+          >Məni xatırla:<input type="checkbox" id="check" name="check" /></label
+        ><br /><br />
+        <label for="message">Mesaj:</label>
+        <textarea name="message" id="message" cols="30" rows="8"></textarea>
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+    <div class="table-container">
+      <table id="item">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Surname</th>
+            <th>E-Mail</th>
+            <th>Age</th>
+            <th>Country</th>
+            <th>Gender</th>
+            <th>Phone</th>
+            <th>Birthday Date</th>
+            <th>Password</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>John</td>
+            <td>Doe</td>
+            <td>john@example.com</td>
+            <td>20</td>
+            <td>USA</td>
+            <td>Male</td>
+            <td>+145632087</td>
+            <td>May 13 2004</td>
+            <td>password</td>
+          </tr>
+          <tr>
+            <td>John</td>
+            <td>Doe</td>
+            <td>john@example.com</td>
+            <td>20</td>
+            <td>USA</td>
+            <td>Male</td>
+            <td>+145632087</td>
+            <td>May 13 2004</td>
+            <td>password</td>
+          </tr>
+          <tr>
+            <td>Mila</td>
+            <td>Johes</td>
+            <td>jones@example.com</td>
+            <td>20</td>
+            <td>Australia</td>
+            <td>Female</td>
+            <td>+145632087</td>
+            <td>May 13 2004</td>
+            <td>password</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>
